@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    background-color: rgb(34, 74, 74);
+    font-size: 60px;
+    color:antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    background-color: rgb(190, 203, 170);
+    font-size: 40px;
+    color: azure;
+}
