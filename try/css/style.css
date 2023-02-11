@@ -61,10 +61,7 @@ header nav .left a{
     margin-right:2rem;
     text-transform:uppercase;
     transition:all .3s ease;
-    -webkit-transition:all .3s ease;
-    -moz-transition:all .3s ease;
-    -ms-transition:all .3s ease;
-    -o-transition:all .3s ease;
+    
 }
 header nav .left a:hover{
     color:var(--primary);
@@ -169,7 +166,7 @@ section.education{
 }
 section.education .card-wrapper{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(2,2fr);
     grid-gap:2rem;
 }
 section.education .card-wrapper .card{
@@ -191,10 +188,7 @@ section.education .card-wrapper .card .overlay{
     color:var(--light);
     opacity:0;
     transition:all .3s ease;
-    -webkit-transition:all .3s ease;
-    -moz-transition:all .3s ease;
-    -ms-transition:all .3s ease;
-    -o-transition:all .3s ease;
+
 }
 section.education .card-wrapper .card:hover .overlay{
     opacity:1;
